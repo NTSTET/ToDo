@@ -1,0 +1,91 @@
+*{
+    font-family: 'Baloo 2', cursive;
+}
+body{
+    margin: 0;
+    margin-left: 10px;
+    background-image: url('/images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+#title{
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 255, 234);
+}
+#greet{
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(240, 240, 112);
+}
+#clickToAdd{
+    display: block;
+    width: 440px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    background-color:rgb(2, 1, 88);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 5px 5px 5px rgb(0, 0, 107); 
+    cursor: pointer;
+}
+.initialUl{
+    list-style-type: none;  
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.afterUl{
+    list-style-type: none;  
+    border: 2px solid rgb(229, 255, 0);
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+li {
+    padding: 5px 20px;
+    margin: 10px;
+    min-width: 300px;
+    border-radius: 10px;
+    background: linear-gradient(to left bottom, rgb(72, 255, 0), rgb(251, 255, 0));
+    word-wrap: break-word;
+}
+li>h4,li>p{
+    color: rgb(4, 0, 255);
+}
+
+#todo-form{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(to right bottom, rgb(1, 1, 104), rgb(3, 3, 255));
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(2, 2, 199);
+    display: block;
+}
+/* #taskList{
+    width: 440px;
+    margin: 10px auto;
+} */
+form{
+    margin: 0;
+}
+h3,h4,p{
+    color: #fff;
+    margin: 0;
+}
+label,input,textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+small,small>em>a{
+    color: wheat;
+}

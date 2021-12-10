@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Todo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <title>Todo</title>
+</head>
+<body>
+    <header id="title">Todo</header>
+    <p id="greet">created with &#128151; by <strong>Saurabh kumar</strong></p>
+    
+    <!-- <button id="clickToAdd">add task</button> -->
+    <div id="todo-form">
+        <h3>Todo form</h3>
+        <p>Fill below the description of your task</p>
+        <form method="POST">
+            <label for="task-name">Task name</label>
+            <input type="text" placeholder="task name" name="task-name" id="task-name" maxlength="60"><br>
+            <label for="task-des">Description</label>
+            <textarea name="task-dis" id="description" cols="30" rows="3" placeholder="task description" maxlength="200"></textarea>
+            <br><br>
+        </form>
+    </div>
+    <button id="clickToAdd">click to add</button>
+    
+    <!-- <div id="taskList"> -->
+        <h3 style="color: #fff;"><span style="color: red;">&#127971;</span> Your tasks appear here</h3>
+        <p id="wayToTask">Tasks count: 0</p>
+        <p><i>click to remove from the list</i></p>
+        <ul class="initialUl">
+            <!-- here tasks will be added -->
+        </ul>
+    <!-- </div> -->
+
+
+    <small>
+        <em>
+            Photo by <a href="https://unsplash.com/@robertlukeman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robert Lukeman</a> on <a href="https://unsplash.com/s/photos/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </em>
+    </small>
+  
+    <script src="Todo.js"></script>
+    
+</body>
+</html>
