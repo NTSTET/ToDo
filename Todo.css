@@ -4,7 +4,7 @@
 body{
     margin: 0;
     margin-left: 10px;
-    background-image: url('https://www.dropbox.com/s/zpu3pf41ucobnpn/bg1.jpg?raw=1');
+    background-image: url('https://www.dropbox.com/s/6o9gbfi2v5s2btt/bg2.jpg?raw=1');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -30,7 +30,6 @@ body{
     border: none;
     border-radius: 5px;
     color: #fff;
-    box-shadow: 5px 5px 5px rgb(0, 0, 107); 
     cursor: pointer;
 }
 .initialUl{
@@ -66,7 +65,6 @@ li>h4,li>p{
     background: linear-gradient(to right bottom, rgb(1, 1, 104), rgb(3, 3, 255));
     border-radius: 10px;
     color: white;
-    box-shadow: 5px 5px 5px rgb(2, 2, 199);
     display: block;
 }
 /* #taskList{
